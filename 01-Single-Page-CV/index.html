@@ -6,59 +6,108 @@
     <title>Single Page CV</title>
   </head>
   <body>
-    <header>
-      <h1>Your Name</h1>
-      <p>Junior Frontend Developer</p>
-      <address id="contact-info">
-        <span>123 Your Street <br /></span>
-        <span> City, ST 12345 <br /></span>
-        <span>(123) 456-7890 <br /></span>
-        <span>no_reply@example.com <br /></span>
-      </address>
-    </header>
+    <main class="resume">
+      <!-- Top Line -->
+      <div class="top-line"></div>
 
-    <section id="skill">
-      <h2>Skills</h2>
-      <p>
-        HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
-        Design, Technical Writing, Presentation
-      </p>
-    </section>
+      <!-- Header -->
+      <header>
+        <h1 class="name">Ankita Thorve</h1>
 
-    <section id="education">
-      <h2>Education</h2>
-      <p>School Name, Location - Degree</p>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>Hackethon</li>
-        <li>Code Testing Program</li>
-      </ul>
-    </section>
+        <div class="job-title">Junior Frontend Developer</div>
 
-    <section>
-      <h2>Experience</h2>
-      <p>Company Name, Location - Job Title</p>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>List of Achievements</li>
-        <li>List of Achievements</li>
-        <li>List of Achievements</li>
-      </ul>
-      <p>Skills: List of skills used or gained at this company</p>
+        <div class="contact">
+          123 Falcon Street <br />
+          Mumbai, 401107 <br />
+          (+91) 9850030720 <br />
+          ankietathorve@gmail.com
+        </div>
+      </header>
 
-      <p>Company Name, Location - Job Title</p>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>List of Achievements</li>
-        <li>List of Achievements</li>
-        <li>List of Achievements</li>
-      </ul>
-      <p>Skills: List of skills used or gained at this company</p>
-    </section>
+      <!-- Skills -->
+      <section class="section">
+        <h2 class="section-title">Skills</h2>
+        <p class="description">
+          HTML, CSS, JavaScript, Accessibility, Figma to Design, <br />
+          Responsive Web Design, Technical Writing, Presentation
+        </p>
+      </section>
 
-    <section>
-      <h2>Across the Internet</h2>
-      
-    </section>
+      <!-- Education -->
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-title">
+          Savitribai Phule University, Pune - BSc Computer Science
+        </div>
+
+        <div class="date">Month 2014 to Month 2017</div>
+
+        <div class="description">
+          <ul>
+            <li>Open-Source Contributions</li>
+            <li>Teaming up for screen off code typing contest</li>
+            <li>Build a Compilers & Translators</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <!-- Job 1 -->
+        <div class="experience">
+          <div class="experience-title">
+            Animation Studio, Pune - Jr Java Developer
+          </div>
+
+          <div class="date">Month 2015 to Month 2016</div>
+
+          <ul>
+            <li>List of Achievement</li>
+            <li>List of Achievement</li>
+            <li>List of Achievement</li>
+          </ul>
+          <div class="skills">
+            <strong>Skills:</strong> Java, Testing, Debugging
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="experience">
+          <div class="experience-title">
+            Sinsan Pharmaceuticals Pvt Ltd, Pune - Executive Sales
+            Administrator, SFA
+          </div>
+
+          <div class="date">Nov 2016 to June 2024</div>
+
+          <ul>
+            <li>Managing Sales-Force Team Day-to-Day Records</li>
+            <li>Sales Software Training for Sales Teammates</li>
+            <li>
+              Maintain daily reporting of field force with Geo Fencing app
+            </li>
+            <li>Update & maintain Reporting App</li>
+          </ul>
+          <div class="skills">
+            <strong>Skills:</strong> Excel, Word, PowerPoint, SFE Sales Force
+          </div>
+        </div>
+      </section>
+
+      <!-- Links -->
+       <section class="section">
+
+        <h2 class="section-title">Across the Internet</h2>
+
+        <div class="description">
+          <a href="https://www.linkedin.com/in/ankita-thorve" target="_blank">LinkedIn</a>
+          <a href="https://github.com/ankita-thorve" target="_blank">GitHub</a>
+        </div>
+       </section>
+
+    </main>
   </body>
 </html>
